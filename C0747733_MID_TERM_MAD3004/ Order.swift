@@ -33,7 +33,10 @@ class Order : Idispay {
     }
     
     func display() {
-        print("order id: \(self.orderId!), order date: \(self.orderDate!), products :\(self.array!), ordertotal:  "+cleanDollars(String(orderTotal)))
+        print("order id: \(self.orderId!)")
+        print("order date: \(self.orderDate!)")
+        print(" products :\(self.array!)")
+        print("ordertotal:\(cleanDollars(String(orderTotal)))")
     }
     
     
