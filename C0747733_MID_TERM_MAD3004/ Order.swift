@@ -28,8 +28,12 @@ class Order : Idispay {
         self.orderTotal = orderTotal
     }
     
+    func getOrderById(orderId: String ) -> String {
+        return orderId
+    }
+    
     func display() {
-        <#code#>
+        print("order id: \(self.orderId!), order date: \(self.orderDate!), products :\(self.array!), ordertotal: \(self.orderTotal!)")
     }
     
 }

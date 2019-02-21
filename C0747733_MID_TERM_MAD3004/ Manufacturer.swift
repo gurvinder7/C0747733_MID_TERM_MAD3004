@@ -11,8 +11,8 @@ class Manufacturer: Idispay
 {
     
     
-    var mId : String
-    var mName : String
+   private var mId : String?
+   private  var mName : String?
     
     init() {
         self.mId = String()
@@ -24,7 +24,9 @@ class Manufacturer: Idispay
         self.mName = mName
     }
     
+    
     func display() {
-        print("mId \(mId) , mName  \(mName)")
+     print("mid \(self.mId!) ,mname \(self.mName!)")
     }
+    
 }
