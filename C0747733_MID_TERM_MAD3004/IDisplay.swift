@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  IDisplay.swift
 //  C0747733_MID_TERM_MAD3004
 //
 //  Created by gurvinder mangat on 2019-02-20.
@@ -8,5 +8,6 @@
 
 import Foundation
 
-
-
+protocol Idispay {
+    func display()
+}

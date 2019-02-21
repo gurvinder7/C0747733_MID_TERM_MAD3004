@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		82EEE817221E20B000C3682F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EEE816221E20B000C3682F /* main.swift */; };
+		82EEE81E221E210D00C3682F /*  Manufacturer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EEE81D221E210D00C3682F /*  Manufacturer.swift */; };
+		82EEE820221E211F00C3682F /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EEE81F221E211F00C3682F /* Product.swift */; };
+		82EEE822221E213200C3682F /*  Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EEE821221E213200C3682F /*  Order.swift */; };
+		82EEE824221E214600C3682F /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EEE823221E214600C3682F /* IDisplay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		82EEE813221E20B000C3682F /* C0747733_MID_TERM_MAD3004 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C0747733_MID_TERM_MAD3004; sourceTree = BUILT_PRODUCTS_DIR; };
 		82EEE816221E20B000C3682F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		82EEE81D221E210D00C3682F /*  Manufacturer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Manufacturer.swift"; sourceTree = "<group>"; };
+		82EEE81F221E211F00C3682F /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		82EEE821221E213200C3682F /*  Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Order.swift"; sourceTree = "<group>"; };
+		82EEE823221E214600C3682F /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				82EEE816221E20B000C3682F /* main.swift */,
+				82EEE81D221E210D00C3682F /*  Manufacturer.swift */,
+				82EEE81F221E211F00C3682F /* Product.swift */,
+				82EEE821221E213200C3682F /*  Order.swift */,
+				82EEE823221E214600C3682F /* IDisplay.swift */,
 			);
 			path = C0747733_MID_TERM_MAD3004;
 			sourceTree = "<group>";
@@ -120,6 +132,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				82EEE817221E20B000C3682F /* main.swift in Sources */,
+				82EEE81E221E210D00C3682F /*  Manufacturer.swift in Sources */,
+				82EEE820221E211F00C3682F /* Product.swift in Sources */,
+				82EEE824221E214600C3682F /* IDisplay.swift in Sources */,
+				82EEE822221E213200C3682F /*  Order.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
