@@ -12,7 +12,7 @@ class Order : Idispay {
     private var orderId: String?
     private var orderDate: Date?
     private var array: [Product]?
-    private var orderTotal: Float?
+    private var orderTotal: Float
     
     init() {
         self.orderId = String()
@@ -33,7 +33,24 @@ class Order : Idispay {
     }
     
     func display() {
-        print("order id: \(self.orderId!), order date: \(self.orderDate!), products :\(self.array!), ordertotal: \(self.orderTotal!)")
+        print("order id: \(self.orderId!), order date: \(self.orderDate!), products :\(self.array!), ordertotal:  "+cleanDollars(String(orderTotal)))
     }
     
+    
+        }
+
+extension Order
+{
+    func cleanDollars(_ value: String?) -> String {
+        guard value != nil else { return "$0.00" }
+        let doubleValue = Double(value!) ?? 0.0
+        let formatter = NumberFormatter()
+        formatter.currencyCode = "USD"
+        formatter.currencySymbol = "$"
+        formatter.minimumFractionDigits = (value!.contains(".00")) ? 0 : 2
+        formatter.maximumFractionDigits = 2
+        formatter.numberStyle = .currencyAccounting
+        return formatter.string(from: NSNumber(value: doubleValue)) ?? "$\(doubleValue)"
+    }
+
 }

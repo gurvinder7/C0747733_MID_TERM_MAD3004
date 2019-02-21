@@ -19,3 +19,4 @@ var o2 = Order(orderId: "o2", orderDate: Date(), array: [p2,p3,p4], orderTotal: 
 var o3 = Order(orderId: "o3", orderDate: Date(), array: [p3,p4,p5], orderTotal: 90000.00)
 
 //let orderDictionar = [Order:String]()
+o1.display()
